@@ -1,71 +1,78 @@
-# Statistical_Computing_2025-
+# Statistical_Computing_2025
 Statistical Computing and Reporting project with Python and R scripts. Includes data operations, arrays, matrices, data frames, summaries, simple models, and plots. Structured for learning, practice, and clear reporting for the course.
 Statistical Computing and Reporting Assignment
 
-Group Members
-Osman Hassan, BSCCS/2023/65976 
+# Statistical Computing and Reporting Project
+
+# Group Members
+
+Osman Hassan, BSCCS/2023/65976
+
 Abdirahman Mohamuud, BSCCS/2023/58147
+
 Noor Ali Haji, BSCCS/2023/63709
+
 Sadiek Ahmed, BSCCS/2023/63778
 
-Project Overview
-This project provides all required work for the Statistical Computing and Reporting course. It stores tasks from all chapters in Python and R. The work covers data entry, arrays, matrices, data frames, summary statistics, model fitting, visual reports, and structured code design. Each section follows the same layout in both languages to help you compare and review the results in a simple way. The goal is to show clear statistical processes using small programs that run fast and give accurate output.
+# Project Overview
+This repository contains all required work for the Statistical Computing and Reporting course. The project includes Python and R code for data operations, arrays, matrices, data frames, summaries, numerical tasks, simple models, and visual reports. The structure helps you compare results across both languages. Each script is short and clear for fast review and learning.
 
-Project Structure
-BasicsOfData
-Contains simple operations that show arithmetic, variables, functions, and small data structures. This section prepares you for later work involving arrays and data frames.
+# Project Structure
 
-Arrays and DataFrames
-Covers arrays, matrices, data frames, indexing, cleaning, structure checks, grouping, and summary statistics. It also includes simple modeling tasks and related numerical processes.
+# BasicsOfData
+This folder contains simple tasks that show variables, arithmetic, functions, and small data structures. These tasks prepare you for later work with arrays and data frames.
 
-Plots
-Stores all graphs produced by the Python and R scripts. These files include scatter plots, line plots, fitted lines, and other visual summaries based on the data used in the scripts.
+# Arrays and DataFrames
+This folder covers arrays, matrices, indexing, cleaning, structure checks, grouping, summaries, and simple models. It also includes tasks that show how numerical operations work in Python and R.
 
-Python Work
-The Python section applies numpy, pandas, and matplotlib. It runs the same tasks done in R but in Python syntax. You learn how to load data, inspect data, clean data, compute summary values, build basic models, process arrays, and generate graphs saved to the plots folder. Each script produces clear output that you can read in your terminal.
+# Plots
+This folder stores all graphs produced by the scripts. The graphs include scatter plots, line plots, fitted lines, and simple visual summaries.
 
-R Work
-The R section uses native R features for arrays, matrices, lists, and data frames. It produces descriptive summaries and visual reports. It includes matrix operations, object inspection, simple models, eigenvalue work, and plots saved to the plots folder. Each script runs from the command line for consistent workflow.
+# Python Work
+The Python code uses numpy, pandas, and matplotlib. It repeats the tasks done in R. You learn data loading, cleaning, structure checks, summaries, simple modeling, and graph creation. All graphs are saved in the plots folder. The output is simple to read in the terminal.
 
-Software Requirements
+# R Work
+The R code uses base R for arrays, matrices, lists, and data frames. It shows descriptive summaries, matrix operations, object inspection, simple models, eigenvalue work, and plots saved in the plots folder. All scripts run from the command line.
+
+# Software Requirements
 Python 3.11 or newer
-R with required libraries
-A working terminal that supports simple commands
-Installed libraries listed in requirements.txt for Python
-Installed R packages when needed
+R and required libraries
+A terminal that supports standard commands
+Python libraries from requirements.txt
+R packages installed as needed
 
-How to Run Python Scripts
-
+# How to Run Python Scripts
 Create a virtual environment
 python3 -m venv .venv
 
-Activate the environment
+# Activate the environment
 source .venv/bin/activate
 
-Install required libraries
+# Install required libraries
 pip install -r requirements.txt
 
-Run basic tasks
+# Run basic tasks
 python BasicsOfData/math_operations.py
 
-Run array and data frame tasks
+# Run arrays and data frames tasks
 python Arrays and DataFrames/arrays_and_data_frames.py
-Plots appear in the plots folder.
+
+# All graphs appear in the plots folder.
 
 How to Run R Scripts
-
 Run basic tasks
 Rscript BasicsOfData/math_operations.R
 
-Run arrays and data frame tasks
+Run arrays and data frames tasks
 Rscript Arrays and DataFrames/Arrays and Data Frames.r
-The scripts produce all required summaries and graphs.
-Graphs appear in the plots folder.
 
-Troubleshooting
+# All graphs appear in the plots folder.
+
+# Troubleshooting
 If Python reports a missing library, activate your environment and reinstall requirements.
-If R reports a missing package, install the package using install.packages inside R.
-If folder names contain spaces, make sure you use quotes when running scripts.
+If R reports a missing package, install it using install.packages.
+If your script path contains spaces, place the file path inside quotes.
 
-Project Purpose
+# Project Purpose
+This project helps students understand statistical work through simple and clear code. It shows how each step operates in Python and R. It supports personal study, group work, and reporting for the course. It follows the instructions provided by the course director.
 This repository helps students understand statistical tasks through simple programs. It shows how each step works in both Python and R. It supports learning by practice. Each script is short and readable. It is designed for fast revision and clear reporting. It matches the instructions provided by the course director.
