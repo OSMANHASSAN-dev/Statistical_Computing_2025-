@@ -8,7 +8,7 @@ Statistical Computing and Reporting Assignment
 
 Osman Hassan, BSCCS/2023/65976
 
-Abdirahman Mohamuud, BSCCS/2023/58147
+Abdirahman Mohamuud, BSCCS/2022/58147
 
 Noor Ali Haji, BSCCS/2023/63709
 
